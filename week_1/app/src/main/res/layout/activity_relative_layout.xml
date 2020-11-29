@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutActivity"
+    android:fillViewport="true">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtTitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="8dp"
+            android:text="@string/title_3"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edtName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/txtTitle3"
+            android:ems="10"
+            android:hint="@string/name"
+            android:autofillHints="@string/name"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/edtAge3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="24dp"
+            android:layout_below="@+id/edtName3"
+            android:ems="10"
+            android:hint="@string/age"
+            android:autofillHints="@string/age"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btFinish3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/edtAge3"
+            android:text="@string/finish"
+            app:backgroundTint="#3F51B5"/>
+    </RelativeLayout>
+</ScrollView>

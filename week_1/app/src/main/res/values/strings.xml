@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FirstExercise</string>
+    <string name="title">Primeiro Exercício</string>
+    <string name="title_2">Primeiro Exercício 2</string>
+    <string name="title_3">Primeiro Exercício 3</string>
+    <string name="name">Nome</string>
+    <string name="age">Idade</string>
+    <string name="finish">Finalizar</string>
+</resources>
