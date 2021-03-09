@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">week_2</string>
+    <string name="title">Calculadora Simples</string>
+    <string name="value_1">1° valor</string>
+    <string name="value_2">2° valor</string>
+    <string name="title_2">O resultado é:</string>
+    <string name="button_text">CALCULAR NOVAMENTE</string>
+</resources>
